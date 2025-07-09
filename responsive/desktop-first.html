@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desktop First</title>
+    <style>
+      body {
+        padding: 50px;
+      }
+      .app {
+        background: lightcoral;
+        padding: 50;
+      }
+
+      /* desktop-first approved(large to small) */
+
+      @media screen and (max-width: 1200px) {
+        body {
+          padding: 40px;
+        }
+        .app {
+          background: lightgreen;
+          padding: 40px;
+        }
+      }
+      @media screen and (max-width: 998px) {
+        body {
+          padding: 30px;
+        }
+        .app {
+          background: lightblue;
+          padding: 30px;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        body {
+          padding: 20px;
+        }
+        .app {
+          background: lightyellow;
+          padding: 20px;
+        }
+      }
+      @media screen and (max-width: 576px) {
+        body {
+          padding: 10px;
+        }
+        .app {
+          background: lightpink;
+          padding: 10px;
+        }
+      }
+      @media screen and (max-width: 480px) {
+        body {
+          padding: 5px;
+        }
+        .app {
+          background: lightgray;
+          padding: 5px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus
+        adipisci illo quia minus labore quis, eos unde nobis molestias velit?
+        Veritatis obcaecati dolores nostrum ut sunt dolorum, nobis, vel numquam
+        minus saepe ducimus quos accusantium labore hic dolor eos eveniet
+        tempore natus doloribus delectus quidem necessitatibus, voluptatum sint
+        vitae! Distinctio quisquam, incidunt praesentium aperiam non suscipit,
+        cumque neque id repudiandae quasi eius rerum, voluptatem aliquam totam
+        qui officiis animi sed beatae tempore natus. Optio autem accusamus
+        pariatur excepturi, vitae ut dolorum laudantium culpa facere ab laborum
+        inventore deleniti quo quis, saepe, odio quia veritatis. Doloribus iusto
+        a numquam eius earum?
+      </p>
+    </div>
+  </body>
+</html>
