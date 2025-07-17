@@ -5,7 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     list-style: none;
-    color: #201c19;
+    color: #1c1b1a;
     text-decoration: none;
     font-family: 'Inter', 'Public Sans', 'Savate';
 }
@@ -20,7 +20,7 @@ header {
     min-height: 100vh;
     background: #604c33;
     background: #987952;
-    background: linear-gradient(105deg, #b5a184d5 11%, #ebe3d91a 30%), url(../photos/cake-1.jpg);
+    background: linear-gradient(75deg, #b5a184e6 11%, #ebe3d920 30%), url(../photos/cake-1.jpg);
     background-size: cover;
     background-position: 50% 50%;
     padding-top: 25px;

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="animate.css" />
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+        background: navy;
+        animation: move 5s 2s infinite forwards linear;
+        position: absolute;
+      }
+
+      @keyframes move {
+        0% {
+          top: 0;
+          left: 0;
+          background: burlywood;
+        }
+        20% {
+          top: 0;
+          left: 500px;
+          background: brown;
+        }
+        40% {
+          top: 400px;
+          left: 500px;
+          background: seagreen;
+          border-radius: 50%;
+          transform: scale(2);
+        }
+        60% {
+          top: 400px;
+          left: 0;
+        }
+        100% {
+          top: 0px;
+          left: 0;
+        }
+      }
+      .app {
+        width: 300px;
+        padding: 20px;
+        background: beige;
+        transform: translate(100px, 100px);
+        opacity: 0;
+        animation: test 3s 2 forwards ease-in-out;
+      }
+      @keyframes test {
+        100% {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
+        mollitia corporis illum rem alias voluptatem vel fugit beatae voluptas
+        odio.
+      </p>
+    </div>
+    <div class="box"></div>
+  </body>
+</html>
